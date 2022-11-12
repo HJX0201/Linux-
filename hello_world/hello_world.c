@@ -5,7 +5,7 @@
 static int __init hello_init(void)
  {
 printk(KERN_EMERG "[ KERN_EMERG ]  Hello World Module Init\n");
-printk( "[ default ]  Hello World Module Init\n");
+printk( "[ default ]  Hello_World_Init\n");
  return 0;
 }
 
